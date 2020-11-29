@@ -2,6 +2,7 @@ import React from "react";
 import fetch from "isomorphic-fetch";
 import Error from "next/error";
 import StoryList from "../components/StoryList";
+import Layout from "../components/Layout";
 class Index extends React.Component {
   static async getInitialProps() {
     let stories;
@@ -26,8 +27,12 @@ class Index extends React.Component {
 
     return (
       <div>
-        <h1>Hacker News</h1>
-        <StoryList stories={stories} />
+        <Layout
+          title="Hacker News"
+          description="Hacker News clone with Next.js"
+        >
+          <StoryList stories={stories} />
+        </Layout>
       </div>
     );
   }
