@@ -1,0 +1,20 @@
+{
+    "name": "Next.js Hacker News",
+    "short_name": "nextjs-hackernews",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#f60",
+    "icons": [
+      {
+        "src": "/static/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/icons/icon-192x192.png",
+        "sizes": "192x512",
+        "type": "image/png"
+      }
+    ]
+  }
