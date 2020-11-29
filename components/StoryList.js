@@ -17,37 +17,37 @@ const StoryList = ({ stories }) => (
     ))}
 
     <style jsx>{`
-    .story-list {
-        paddin: 0 1em;
-    }
-    .story {
+      .story-list {
+        padding: 0 1em;
+      }
+      .story {
         padding: 1em 0;
-    }
-    .story-title{
+      }
+      .story-title {
         font-size: 1rem;
         font-weight: 400;
         margin: 0;
         margin*bottom: 0.5em;
-    }
-    .story-title a{
-        color: #ddd
-        text-decoration:none;
-    }
-    .story-title a:hover, .story-detail a:hover{
+      }
+      .story-title a {
+        color: #333;
+        text-decoration: none;
+      }
+      .story-title a:hover,
+      .story-details a:hover {
         text-decoration: underline;
-    }
-    .story-details {
+      }
+      .story-details {
         font-size: 0.8rem;
         font-weight: nold;
-    }
-    .story-details span{
+      }
+      .story-details span {
         margin-right: 1em;
-
-    }
-    .story-details a{
+      }
+      .story-details a {
         color: #6600ff;
         text-decoration: none;
-    }
+      }
     `}</style>
   </div>
 );

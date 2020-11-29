@@ -36,6 +36,7 @@ const Layout = ({ children, title, description }) => (
         }
         nav .main-title {
           font-weight: bold;
+          color: black;
         }
       `}
     </style>
